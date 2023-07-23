@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="shortcut icon" href="./c images/Pastel Retail Flower Shop Logo.png" type="image/x-icon">
+    <!-- Talwind and DasyUi-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+</head>
+ <!-- Custom Colors -->
+ <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        backgroundcolor: {
+
+          'bg-pinkish': '#E55473',
+        }
+      }
+    }
+  }
+</script>
+
+<body>
+    <style>
+        *{
+          font-family: 'Lato', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+    <nav>
+            <div class="navbar bg-pink-400">
+              <div class="navbar-start">
+                <div class="dropdown">
+                  <label tabindex="0" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                  </label>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Homepage</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>About</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="navbar-center">
+                <a class="btn btn-ghost font-serif normal-case text-md md:text-xl"> <span class="text-white">Flower</span> Shop</a>
+                  <img class="w-[100px] md:w-[150px] " src="./c images/Pastel Retail Flower Shop Logo.png" alt="">
+              </div>
+              <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                </button>
+                <button class="btn btn-ghost btn-circle">
+                  <div class="indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                    <span class="badge badge-xs badge-primary indicator-item"></span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </nav>
+     
+
+        <section class="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center py-3">
+          <div>
+            <h1 class="text-5xl font-semibold">Make Your Day
+              <span class="text-pink-600 uppercase">Special</span> With Flowers</h1>
+            <p class="py-6 font-sans">A flower cannot blossom without sunshine, and
+              A man cannot live without Love.
+              Love is the flower you've got to let grow.</p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+          <div class="flex justify-center">
+            <img src="./Flower Asset/Circle-of-Love-removebg-preview.png" class="max-w-sm rounded-lg shadow-2xl" />
+          </div>
+    
+    
+  
+</section>
+    </header>
+    <main>
+      <div class="text-3xl from-neutral-900 text-center my-4">
+       <h2>Our Featured Flowers</h2> 
+       <p class="text-xl text-black font-sans">Check out the Exotic Fresh Flowers to add more freshness to your</p>
+      </div>
+<section>
+  <div class="grid grid-cols-4 gap-6 p-3">
+  <div class="card bg-indigo-800 shadow-xl shadow-pink-500">
+    <figure><img src="/c images/sun flower.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">
+         <h4 class="text-rose-700">Rose!  <div class="badge badge-secondary text-white">NEW</div></h4>
+
+       
+      </h2>
+      <p class="text-white">The Flower symbolizes Romance, Love, Beauty, and Courage.</p>
+      <div class="card-actions ">
+        <div class="badge badge-outline text-zinc-900 bg-green-500">Price: $20</div> 
+        <div class="badge badge-outline text-white">Add to Cart</div>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-fuchsia-600 shadow-xl shadow-red-500">
+    <figure><img src="/c images/pngwing 5.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">
+         <h4 class="text-rose-700">Transvaal Daisy!  <div class="badge badge-secondary text-white">NEW</div></h4>
+
+       
+      </h2>
+      <p class="text-white">The Flower symbolizes Romance, Love, Beauty, and Courage.</p>
+      <div class="card-actions ">
+        <div class="badge badge-outline text-zinc-900 bg-green-500">Price: $20</div> 
+        <div class="badge badge-outline text-white">Add to Cart</div>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-slate-700 shadow-xl shadow-green-500">
+    <figure><img src="/c images/BF89-11K-removebg-preview.png " alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">
+         <h4 class="text-rose-700">Rose & Lily!  <div class="badge badge-secondary text-white">NEW</div></h4>
+
+       
+      </h2>
+      <p class="text-white">The Flower symbolizes Romance, Love, Beauty, and Courage.</p>
+      <div class="card-actions ">
+        <div class="badge badge-outline text-zinc-900 bg-green-500">Price: $35</div> 
+        <div class="badge badge-outline text-white">Add to Cart</div>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-rose-500 shadow-xl shadow-orange-400">
+    <figure><img src="/c images/Lily-Rose-Melody-2-removebg-preview.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">
+         <h4 class="text-rose-700">Rose!  <div class="badge badge-secondary text-white">NEW</div></h4>
+
+       
+      </h2>
+      <p class="text-white">The Flower symbolizes Romance, Love, Beauty, and Courage.</p>
+      <div class="card-actions ">
+        <div class="badge badge-outline text-zinc-900 bg-green-500">Price: $25</div> 
+        <div class="badge badge-outline text-white">Add to Cart</div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
